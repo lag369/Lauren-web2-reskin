@@ -9,6 +9,116 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
+    "\/assets\/figma reskin images\/anna1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/figma reskin images\/anna1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/figma reskin images\/anna2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/figma reskin images\/anna2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/figma reskin images\/anna3.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/figma reskin images\/anna3.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/figma reskin images\/anna4.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/figma reskin images\/anna4.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/figma reskin images\/anna5.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/figma reskin images\/anna5.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/figma reskin images\/anna6.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/figma reskin images\/anna6.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/figma reskin images\/anna7.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/figma reskin images\/anna7.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/figma reskin images\/anna8.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/figma reskin images\/anna8.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/figma reskin images\/anna9.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/figma reskin images\/anna9.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/figma reskin images\/anna10.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/figma reskin images\/anna10.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/figma reskin images\/anna11.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/figma reskin images\/anna11.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -255,116 +365,6 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
-    },
-    "\/reskin imgs\/anna1.HEIC" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/reskin imgs\/anna1.HEIC",
-      "oF" : 0
-    },
-    "\/reskin imgs\/anna2.JPEG" : {
-      "ft" : 16384,
-      "iS" : 2854323,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/reskin imgs\/anna2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/reskin imgs\/anna3.jpeg" : {
-      "ft" : 16384,
-      "iS" : 2834736,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/reskin imgs\/anna3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/reskin imgs\/anna4.JPG" : {
-      "ft" : 16384,
-      "iS" : 1172886,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/reskin imgs\/anna4.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/reskin imgs\/anna5.JPEG" : {
-      "ft" : 16384,
-      "iS" : 2721102,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/reskin imgs\/anna5.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/reskin imgs\/anna6.heic" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/reskin imgs\/anna6.heic",
-      "oF" : 0
-    },
-    "\/reskin imgs\/anna7.JPG" : {
-      "ft" : 16384,
-      "iS" : 262040,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/reskin imgs\/anna7.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/reskin imgs\/anna8.JPEG" : {
-      "ft" : 16384,
-      "iS" : 3088436,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/reskin imgs\/anna8.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/reskin imgs\/anna9.HEIC" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/reskin imgs\/anna9.HEIC",
-      "oF" : 0
-    },
-    "\/reskin imgs\/anna10.heic" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/reskin imgs\/anna10.heic",
-      "oF" : 0
     }
   },
   "hooks" : [

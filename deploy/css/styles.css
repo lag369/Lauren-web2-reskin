@@ -354,12 +354,11 @@ template {
 ============= */
 .container {
   display: grid;
-  grid-template-columns: 15px auto 15px;
+  grid-template-columns: 16px auto 16px;
   grid-template-areas: ".  content .";
 }
 .container .content {
   grid-area: content;
-  grid-template-columns: 100%;
 }
 
 /* =============
@@ -400,3 +399,17 @@ header .container {
 /* =============
     Footer
 ============= */
+footer .content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "logo copyright" "logo";
+}
+footer .content img {
+  grid-area: logo;
+}
+footer .content h3 {
+  grid-area: copyright;
+}
+footer .content p {
+  grid-area: josh;
+}

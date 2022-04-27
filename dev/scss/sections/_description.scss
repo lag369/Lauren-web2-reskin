@@ -2,3 +2,31 @@
     Description
 ================= */
 
+.description{
+
+    .description1{
+        display: grid;
+        grid-template-columns: 100%;
+        padding-left: 16px;
+        padding-top: 14px;
+        padding-bottom: 21px;
+        padding-right: 177px;
+
+        @include xl{
+    
+        }
+    }
+
+    .description2{
+        display: grid;
+        grid-template-columns: 100%;
+        padding-left: 16px;
+        padding-top: 15px;
+        padding-bottom: 43px;
+        padding-right: 151px;
+
+        @include xl{
+            
+        }
+    }
+}

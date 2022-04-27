@@ -1,9 +1,11 @@
-.hero{
+
+
+
+
+.hero1{
+
     img{
         width: 100%;
-    }
-
-    h1{
-        font-size: 100px;
-    }
-}
+        display: block; //is for images so there isnt any weird spacing
+    }   
+}  

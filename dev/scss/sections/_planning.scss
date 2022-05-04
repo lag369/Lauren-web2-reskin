@@ -2,15 +2,17 @@
 
 
 .planning{
-
+    display: grid;
+    grid-template-columns: 100%;
     padding-left: 16px;
     padding-top: 16px;
     padding-bottom: 56px;
     padding-right: 182px;
 
     .start-here{
-
-        padding-left: 14px;
+        display: grid;
+        grid-template-columns: 100%;
+        padding-left: 12px;
         padding-top: 13px;
         padding-bottom: 15px;
         padding-right: 28px;

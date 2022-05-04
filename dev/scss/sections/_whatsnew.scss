@@ -8,12 +8,34 @@
             grid-template-columns: 100%;
             gap: 15px;
 
-            article{
+            .article-1{
 
-                img{
+                .anna7{
                     width: 100%;
                 }
+
+                .article-1a{
+                    padding-left: 12px;
+                    padding-top: 13px;
+                    padding-bottom: 15px;
+                    padding-right: 28px;
+                }
+
+                .article-1b{
+                    padding-left: 12px;
+                    padding-top: 13px;
+                    padding-bottom: 15px;
+                    padding-right: 28px;
+                }
+
+                .read-more{
+                    padding-left: 12px;
+                    padding-top: 13px;
+                    padding-bottom: 15px;
+                    padding-right: 28px;
+                }
             }
+
             @include sm{
                 grid-template-columns: 100%;
                 

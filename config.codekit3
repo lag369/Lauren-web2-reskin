@@ -9,121 +9,134 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
-    "\/assets\/figma reskin images\/anna1.svg" : {
+    "\/assets\/figmareskinimages\/anna1.jpg" : {
+      "ft" : 16384,
+      "iS" : 85744,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/figmareskinimages\/anna1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/figmareskinimages\/anna1.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/figma reskin images\/anna1.svg",
+      "oAP" : "\/assets\/figmareskinimages\/anna1.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/figma reskin images\/anna2.svg" : {
+    "\/assets\/figmareskinimages\/anna2.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/figma reskin images\/anna2.svg",
+      "oAP" : "\/assets\/figmareskinimages\/anna2.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/figma reskin images\/anna3.svg" : {
+    "\/assets\/figmareskinimages\/anna3.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/figma reskin images\/anna3.svg",
+      "oAP" : "\/assets\/figmareskinimages\/anna3.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/figma reskin images\/anna4.svg" : {
+    "\/assets\/figmareskinimages\/anna4.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/figma reskin images\/anna4.svg",
+      "oAP" : "\/assets\/figmareskinimages\/anna4.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/figma reskin images\/anna5.svg" : {
+    "\/assets\/figmareskinimages\/anna5.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/figma reskin images\/anna5.svg",
+      "oAP" : "\/assets\/figmareskinimages\/anna5.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/figma reskin images\/anna6.svg" : {
+    "\/assets\/figmareskinimages\/anna6.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/figma reskin images\/anna6.svg",
+      "oAP" : "\/assets\/figmareskinimages\/anna6.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/figma reskin images\/anna7.svg" : {
+    "\/assets\/figmareskinimages\/anna7.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/figma reskin images\/anna7.svg",
+      "oAP" : "\/assets\/figmareskinimages\/anna7.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/figma reskin images\/anna8.svg" : {
+    "\/assets\/figmareskinimages\/anna8.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/figma reskin images\/anna8.svg",
+      "oAP" : "\/assets\/figmareskinimages\/anna8.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/figma reskin images\/anna9.svg" : {
+    "\/assets\/figmareskinimages\/anna9.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/figma reskin images\/anna9.svg",
+      "oAP" : "\/assets\/figmareskinimages\/anna9.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/figma reskin images\/anna10.svg" : {
+    "\/assets\/figmareskinimages\/anna10.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/figma reskin images\/anna10.svg",
+      "oAP" : "\/assets\/figmareskinimages\/anna10.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/figma reskin images\/anna11.svg" : {
+    "\/assets\/figmareskinimages\/anna11.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/figma reskin images\/anna11.svg",
+      "oAP" : "\/assets\/figmareskinimages\/anna11.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/figma reskin images\/Group 3.svg" : {
+    "\/assets\/figmareskinimages\/Group 3.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/figma reskin images\/Group 3.svg",
+      "oAP" : "\/assets\/figmareskinimages\/Group 3.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

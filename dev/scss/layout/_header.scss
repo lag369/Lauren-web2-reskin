@@ -2,14 +2,20 @@
     Header
 ============= */
 
-header{
+.header{
 
-     .logo{
+    $base-color: #97A97C;
+
+    .logo{
         display: grid;
         grid-template-columns: 50% 50%;
        
     }
 
+    .cats{
+        font-family: mohave;
+        $base-color: #E9F5DB;
 
+    }
 }
 

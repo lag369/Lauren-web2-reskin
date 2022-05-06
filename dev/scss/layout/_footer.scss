@@ -3,7 +3,9 @@
 ============= */
 
 
-footer{
+.footer{
+
+    background-color{ $green-4: #97A97C }
 
     .content{
         display:grid;
@@ -11,18 +13,5 @@ footer{
         grid-template-areas:
         "logo copyright"
         "logo"
-        ;
-
-        img{
-            grid-area:logo;
-        }
-
-        h3{
-            grid-area: copyright;
-        }
-
-        p{
-            grid-area:josh;
-        }
     }
 }

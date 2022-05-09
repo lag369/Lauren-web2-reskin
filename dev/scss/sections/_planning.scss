@@ -9,13 +9,11 @@
     padding-bottom: 56px;
     padding-right: 182px;
 
-    .start-here{
-        display: grid;
-        grid-template-columns: 100%;
-        padding-left: 12px;
-        padding-top: 13px;
-        padding-bottom: 15px;
-        padding-right: 28px;
+    .button{
+        background-color: $green-1;
+        border: none;
+        font-size: 14px;
+        font-weight: 700px;
     }
     
 }

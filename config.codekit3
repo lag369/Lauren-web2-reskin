@@ -176,6 +176,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/dev\/img\/facebook-square-brands.jpg" : {
+      "ft" : 16384,
+      "iS" : 1280,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/img\/facebook-square-brands.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dev\/img\/group3.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -185,6 +198,71 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/dev\/img\/instagram-square-brands.jpg" : {
+      "ft" : 16384,
+      "iS" : 1357,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/img\/instagram-square-brands.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dev\/img\/location-arrow-light.jpg" : {
+      "ft" : 16384,
+      "iS" : 1216,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/img\/location-arrow-light.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dev\/img\/mobile-android-light.jpg" : {
+      "ft" : 16384,
+      "iS" : 1082,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/img\/mobile-android-light.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dev\/img\/twitter-square-brands.jpg" : {
+      "ft" : 16384,
+      "iS" : 1293,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/img\/twitter-square-brands.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dev\/img\/youtube-square-brands.jpg" : {
+      "ft" : 16384,
+      "iS" : 1218,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/img\/youtube-square-brands.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/dev\/index.html" : {
       "cB" : 0,

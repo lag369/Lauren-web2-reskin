@@ -371,9 +371,14 @@ template {
 ============= */
 body {
   font-family: "Mohave", sans-serif;
+  font-weight: 400;
+}
+body p {
+  font-size: 16px;
 }
 body h1 {
-  font-family: "Mohave", bold;
+  font-weight: 700;
+  font-size: 32px;
 }
 
 /* =============
@@ -403,12 +408,18 @@ textarea {
 /* =============
     Header
 ============= */
-.header .logo {
+.header .content {
   display: grid;
   grid-template-columns: 50% 50%;
 }
-.header .cats {
-  font-family: mohave;
+.header .content ul li {
+  list-style: none;
+  font-weight: 400;
+}
+.header .content ul li a {
+  font-size: 30px;
+  color: #E9F5DB;
+  text-decoration: none;
 }
 
 /* =============

@@ -7,12 +7,10 @@
     padding-bottom: 68px;
     padding-right: 179px;
 
-    .order-here{
-        display: grid;
-        grid-template-columns: 100%;
-        padding-left: 13px;
-        padding-top: 7px;
-        padding-bottom: 9px;
-        padding-right: 33px;
+    button{
+        background-color: $green-1;
+        border: none;
+        font-size: 14px;
+        font-weight: 700px;
     }
 }

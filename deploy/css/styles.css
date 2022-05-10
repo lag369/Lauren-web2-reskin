@@ -408,15 +408,19 @@ textarea {
 /* =============
     Header
 ============= */
-.header .content {
+.header {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: auto;
+  background-color: #97A97C;
 }
-.header .content ul li {
+.header .logo .h1 {
+  font-size: 32px;
+}
+.header ul li {
   list-style: none;
   font-weight: 400;
 }
-.header .content ul li a {
+.header ul li a {
   font-size: 30px;
   color: #E9F5DB;
   text-decoration: none;

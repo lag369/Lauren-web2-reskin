@@ -4,22 +4,28 @@
 
 .header{
 
-    $base-color: #97A97C;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: $green-4;
 
-    .content{
-        display: grid;
-        grid-template-columns: 50% 50%;
-    
-        ul{
-            li{
-                list-style: none;
-                font-weight: 400;
+    .logo{
+        
+        .h1{
+            font-size: 32px;
+            
+        }
+       
+    }
 
-                a{
-                    font-size: 30px;
-                    color: $green-1;
-                    text-decoration: none;
-                }
+    ul{
+        li{
+            list-style: none;
+            font-weight: 400;
+
+            a{
+                font-size: 30px;
+                color: $green-1;
+                text-decoration: none;
             }
         }
     }

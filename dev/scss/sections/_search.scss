@@ -5,13 +5,18 @@
 .search{
     display: grid;
     grid-template-columns: 2fr 1fr ;
+    grid-template-areas: 
+    "h2 searchicon"
+    ;
 
     .h2{
         color: $light-gray;
         font-size: 16px;
+        grid-area: h2;
     }
     
     .searchicon{
         width: 100%;
+        grid-area: searchicon;
     }
 }

@@ -4,6 +4,9 @@
 
 .hero1{
 
+    display: grid;
+    grid-template-columns: 100% ;
+    
     img{
         width: 100%;
         display: block; //is for images so there isnt any weird spacing

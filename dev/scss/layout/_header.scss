@@ -7,6 +7,7 @@
     display: grid;
     grid-template-columns: auto;
     background-color: $green-4;
+    gap: 6px;
 
     .logo{
         
@@ -15,19 +16,6 @@
             color: $green-1;
         }
        
-    }
-
-    ul{
-        li{
-            list-style: none;
-            font-weight: 400;
-
-            a{
-                font-size: 30px;
-                color: $green-1;
-                text-decoration: none;
-            }
-        }
     }
 }
 

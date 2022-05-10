@@ -412,19 +412,11 @@ textarea {
   display: grid;
   grid-template-columns: auto;
   background-color: #97A97C;
+  gap: 6px;
 }
 .header .logo .h1 {
   font-size: 32px;
   color: #E9F5DB;
-}
-.header ul li {
-  list-style: none;
-  font-weight: 400;
-}
-.header ul li a {
-  font-size: 30px;
-  color: #E9F5DB;
-  text-decoration: none;
 }
 
 /* =============

@@ -66,16 +66,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/dev\/img\/anna1.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dev\/img\/anna1.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/dev\/img\/anna2.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -211,6 +201,32 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/dev\/img\/IMG_5282.JPEG" : {
+      "ft" : 16384,
+      "iS" : 2705942,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/img\/IMG_5282.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dev\/img\/IMG_5282.jpg" : {
+      "ft" : 16384,
+      "iS" : 2506343,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/img\/IMG_5282.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/dev\/img\/instagram-square-brands.jpg" : {
       "ft" : 16384,

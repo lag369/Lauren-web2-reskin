@@ -4,29 +4,49 @@
 
 .description{
 
+    display: grid;
+
     .description1{
         display: grid;
         grid-template-columns: 100%;
-        padding-left: 16px;
-        padding-top: 14px;
-        padding-bottom: 21px;
-        padding-right: 177px;
-       
-        @include xl{
-    
+        background-color: $green-4;
+        font-family: 'mohave', sans-serif;
+        
+        .anna{
+            font-weight: 700;
+            font-size: 18pt;
+        }
+
+        .tabby{
+            font-weight: 400;
+            font-size: 16pt;
+        }
+        
+        .details1{
+            font-weight: 400;
+            font-size: 18pt;
         }
     }
 
     .description2{
         display: grid;
         grid-template-columns: 100%;
-        padding-left: 16px;
-        padding-top: 15px;
-        padding-bottom: 43px;
-        padding-right: 151px;
+        background-color: $green-3;
+        font-family: 'mohave', sans-serif;
 
-        @include xl{
-            
+        .location{
+            font-weight: '400';
+            font-size: 16pt;
+        }
+
+        .price{
+            font-weight: 400;
+            font-size: 16pt;
+        }
+
+        .details2{
+            font-weight: 400;
+            font-size: 18pt;
         }
     }
 }

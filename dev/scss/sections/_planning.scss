@@ -3,12 +3,20 @@
 
 .planning{
     display: grid;
-    grid-template-columns: 100%;
-    padding-left: 16px;
-    padding-top: 16px;
-    padding-bottom: 56px;
-    padding-right: 182px;
-
+    grid-template-columns: 
+    80% 20%
+    50%;
+    background: $green-2;
+   grid-template-areas: 
+   "planning anna3 button";
+    .planning-p{
+        font-weight: 400;
+        font-size: 22pt;
+    }
+    .anna3{
+        width: 77.48px;
+        height: 77.48px;
+    }
     .button{
         background-color: $green-1;
         border: none;

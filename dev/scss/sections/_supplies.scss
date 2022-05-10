@@ -2,15 +2,18 @@
 .supplies{
     display: grid;
     grid-template-columns: 100%;
-    padding-left: 19px;
-    padding-top: 28px;
-    padding-bottom: 68px;
-    padding-right: 179px;
-
-    button{
+    background-color: $green-2;
+   
+    .button{
         background-color: $green-1;
         border: none;
         font-size: 14px;
         font-weight: 700px;
+        width: 92px;
+    }
+    .need-p{
+        background-color: $green-2;
+        font-weight: 400;
+        font-size: 22pt;
     }
 }

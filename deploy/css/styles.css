@@ -422,8 +422,93 @@ textarea {
 /* =============
     Footer
 ============= */
-.footer .content {
+.footer {
+  background-color: #97A97C;
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-areas: "logo copyright" "logo";
+  grid-template-columns: 100%;
+}
+.footer .footer2 .locations {
+  font-size: 20pt;
+  font-weight: 700;
+  color: #E9F5DB;
+}
+.footer .footer2 .connecticut .h3 {
+  font-size: 16pt;
+  font-weight: 700;
+  color: #E9F5DB;
+}
+.footer .footer2 .connecticut .p {
+  font-size: 12pt;
+  font-weight: 400;
+  color: #E9F5DB;
+}
+.footer .footer2 .connecticut .p {
+  font-size: 12pt;
+  font-weight: 400;
+  color: #E9F5DB;
+}
+.footer .footer2 .connecticut .p {
+  font-size: 12pt;
+  font-weight: 400;
+  color: #E9F5DB;
+}
+.footer .footer2 .massachusetts .h3 {
+  font-size: 16pt;
+  font-weight: 700;
+  color: #E9F5DB;
+}
+.footer .footer2 .massachusetts .p {
+  font-size: 12pt;
+  font-weight: 400;
+  color: #E9F5DB;
+}
+.footer .footer2 .massachusetts .p {
+  font-size: 12pt;
+  font-weight: 400;
+  color: #E9F5DB;
+}
+.footer .footer2 .massachusetts .p {
+  font-size: 12pt;
+  font-weight: 400;
+  color: #E9F5DB;
+}
+.footer .footer2 .nova-scotia .h3 {
+  font-size: 16pt;
+  font-weight: 700;
+  color: #E9F5DB;
+}
+.footer .footer2 .nova-scotia .p {
+  font-size: 12pt;
+  font-weight: 400;
+  color: #E9F5DB;
+}
+.footer .footer2 .nova-scotia .p {
+  font-size: 12pt;
+  font-weight: 400;
+  color: #E9F5DB;
+}
+.footer .footer2 .nova-scotia .p {
+  font-size: 12pt;
+  font-weight: 400;
+  color: #E9F5DB;
+}
+.footer .newsletter-sign-up .p {
+  font-size: 20pt;
+  font-weight: 700;
+  color: #E9F5DB;
+}
+.footer .newsletter-sign-up .p {
+  font-size: 14pt;
+  font-weight: 400;
+  background-color: #E9F5DB;
+}
+.footer .newsletter-sign-up .sign-up-button {
+  border: none;
+  font-size: 14px;
+  font-weight: 700px;
+}
+.footer .follow-us .follow {
+  font-size: 20pt;
+  font-weight: 700;
+  color: #E9F5DB;
 }

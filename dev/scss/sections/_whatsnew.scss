@@ -1,7 +1,16 @@
 
 .whats-new{
 
-        .article-grid{
+        display: grid;
+        grid-template-columns: auto;
+        font-family: 'mohave', sans-serif;
+
+        .whats-mew{
+            font-weight: 400;
+            font-size: 20pt;
+            color: $gray;
+        }
+        .articles{
             display: grid;
             grid-template-columns: 100%;
             gap: 15px;
@@ -11,17 +20,20 @@
                 .anna7{
                     width: 100%;
                 }
-
-                content{
-
-                    button{
-                        background-color: $green-3;
-                        border: none;
-                        font-size: 14px;
-                        font-weight: 700px;
-                    }
+                .h3{
+                    font-size: 27pt;
+                    font-weight: 700;
                 }
-
+                .p{
+                    font-size: 16pt;
+                    font-weight: 400;
+                }
+                button{
+                    background-color: $green-3;
+                    border: none;
+                    font-size: 14px;
+                    font-weight: 700px;
+                }
             }
 
             .article-2{
@@ -29,15 +41,19 @@
                 .anna8{
                     width: 100%;
                 }
-
-                content{
-
-                    Button{
-                        background-color: $green-3;
-                        border: none;
-                        font-size: 14px;
-                        font-weight: 700px;
-                    }
+                .h3{
+                    font-size: 27pt;
+                    font-weight: 700;
+                }
+                .p{
+                    font-size: 16pt;
+                    font-weight: 400;
+                }
+                button{
+                    background-color: $green-3;
+                    border: none;
+                    font-size: 14px;
+                    font-weight: 700px;
                 }
             }
 
@@ -47,14 +63,19 @@
                     width: 100%;
                 }
 
-                content{
-
-                    Button{
-                        background-color: $green-3;
-                        border: none;
-                        font-size: 14px;
-                        font-weight: 700px;
-                    }
+                .h3{
+                    font-size: 27pt;
+                    font-weight: 700;
+                }
+                .p{
+                    font-size: 16pt;
+                    font-weight: 400;
+                }
+                button{
+                    background-color: $green-3;
+                    border: none;
+                    font-size: 14px;
+                    font-weight: 700px;
                 }
             }
            
@@ -64,14 +85,19 @@
                     width: 100%;
                 }
 
-                content{
-
-                    Button{
-                        background-color: $green-3;
-                        border: none;
-                        font-size: 14px;
-                        font-weight: 700px;
-                    }
+                .h3{
+                    font-size: 27pt;
+                    font-weight: 700;
+                }
+                .p{
+                    font-size: 16pt;
+                    font-weight: 400;
+                }
+                button{
+                    background-color: $green-3;
+                    border: none;
+                    font-size: 14px;
+                    font-weight: 700px;
                 }
             }
 
@@ -81,14 +107,19 @@
                     width: 100%;
                 }
 
-                content{
-
-                    Button{
-                        background-color: $green-3;
-                        border: none;
-                        font-size: 14px;
-                        font-weight: 700px;
-                    }
+                .h3{
+                    font-size: 27pt;
+                    font-weight: 700;
+                }
+                .p{
+                    font-size: 16pt;
+                    font-weight: 400;
+                }
+                button{
+                    background-color: $green-3;
+                    border: none;
+                    font-size: 14px;
+                    font-weight: 700px;
                 }
             }
 

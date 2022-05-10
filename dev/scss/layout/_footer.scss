@@ -5,13 +5,120 @@
 
 .footer{
 
-    background-color{ $green-4: #97A97C }
+    background-color: $green-4;
+    display: grid;
+    grid-template-columns: 100% ;
 
-    .content{
-        display:grid;
-        grid-template-columns: 50% 50%;
-        grid-template-areas:
-        "logo copyright"
-        "logo"
+    .footer2{
+        
+        .locations{
+            font-size: 20pt;
+            font-weight: 700;
+            color: $green-1;
+        }
+        .connecticut{
+
+            .h3{
+               font-size: 16pt;
+               font-weight: 700;
+               color: $green-1; 
+            }
+           
+            .p{
+                font-size: 12pt;
+                font-weight: 400;
+                color: $green-1;
+            }
+            .p{
+                font-size: 12pt;
+                font-weight: 400;
+                color: $green-1;
+            }
+           
+            .p{
+                font-size: 12pt;
+                font-weight: 400;
+                color: $green-1;
+            }
+        }
+        .massachusetts{
+
+            .h3{
+               font-size: 16pt;
+               font-weight: 700;
+               color: $green-1; 
+            }
+           
+            .p{
+                font-size: 12pt;
+                font-weight: 400;
+                color: $green-1;
+            }
+            .p{
+                font-size: 12pt;
+                font-weight: 400;
+                color: $green-1;
+            }
+           
+            .p{
+                font-size: 12pt;
+                font-weight: 400;
+                color: $green-1;
+            }
+        }
+        .nova-scotia{
+
+            .h3{
+               font-size: 16pt;
+               font-weight: 700;
+               color: $green-1; 
+            }
+            
+            .p{
+                font-size: 12pt;
+                font-weight: 400;
+                color: $green-1;
+            }
+            .p{
+                font-size: 12pt;
+                font-weight: 400;
+                color: $green-1;
+            }
+            
+            .p{
+                font-size: 12pt;
+                font-weight: 400;
+                color: $green-1;
+            }
+        }
+    }
+
+    .newsletter-sign-up{
+
+        .p{
+            font-size: 20pt;
+            font-weight: 700;
+            color: $green-1;
+        }
+        .p{
+            font-size: 14pt;
+            font-weight: 400;
+            background-color: $green-1;
+        }
+        .sign-up-button{
+           
+            border: none;
+            font-size: 14px;
+            font-weight: 700px;
+        }
+    }
+
+    .follow-us{
+
+        .follow{
+           font-size: 20pt;
+           font-weight: 700;
+           color: $green-1; 
+        }
     }
 }

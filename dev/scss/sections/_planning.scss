@@ -8,7 +8,9 @@
     50%;
     background: $green-2;
    grid-template-areas: 
-   "planning anna3 button";
+   "planning anna3" 
+   "button";
+
     .planning-p{
         font-weight: 400;
         font-size: 22pt;
@@ -23,5 +25,4 @@
         font-size: 14px;
         font-weight: 700px;
     }
-    
 }

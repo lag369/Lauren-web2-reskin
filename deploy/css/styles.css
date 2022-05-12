@@ -574,13 +574,8 @@ textarea {
 .gallery .hero3 .anna3 .img {
   width: 100%;
 }
-.hero1 {
-  display: grid;
-  grid-template-columns: 100%;
-}
 .hero1 img {
-  width: 320px;
-  height: 255px;
+  width: 100%;
   display: block;
 }
 
@@ -588,7 +583,7 @@ textarea {
   display: grid;
   grid-template-columns: 80% 20% 50%;
   background: #CFE1B9;
-  grid-template-areas: "planning anna3 button";
+  grid-template-areas: "planning anna3" "button";
 }
 .planning .planning-p {
   font-weight: 400;
@@ -626,7 +621,9 @@ textarea {
 
 .supplies {
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 80% 20% 50%;
+  background: #CFE1B9;
+  grid-template-areas: "planning anna3" "button";
   background-color: #CFE1B9;
 }
 .supplies .button {
@@ -655,7 +652,9 @@ textarea {
 .whats-new .articles {
   display: grid;
   grid-template-columns: 100%;
-  gap: 15px;
+}
+.whats-new .articles .article-1 {
+  background-color: #E9F5DB;
 }
 .whats-new .articles .article-1 .anna7 {
   width: 100%;
@@ -674,6 +673,9 @@ textarea {
   font-size: 14px;
   font-weight: 700px;
 }
+.whats-new .articles .article-2 {
+  background-color: #E9F5DB;
+}
 .whats-new .articles .article-2 .anna8 {
   width: 100%;
 }
@@ -690,6 +692,9 @@ textarea {
   border: none;
   font-size: 14px;
   font-weight: 700px;
+}
+.whats-new .articles .article-3 {
+  background-color: #E9F5DB;
 }
 .whats-new .articles .article-3 .anna9 {
   width: 100%;
@@ -708,6 +713,9 @@ textarea {
   font-size: 14px;
   font-weight: 700px;
 }
+.whats-new .articles .article-4 {
+  background-color: #E9F5DB;
+}
 .whats-new .articles .article-4 .anna10 {
   width: 100%;
 }
@@ -724,6 +732,9 @@ textarea {
   border: none;
   font-size: 14px;
   font-weight: 700px;
+}
+.whats-new .articles .article-5 {
+  background-color: #E9F5DB;
 }
 .whats-new .articles .article-5 .anna11 {
   width: 100%;

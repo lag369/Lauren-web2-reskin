@@ -1,7 +1,13 @@
 
 .supplies{
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 
+    80% 20%
+    50%;
+    background: $green-2;
+   grid-template-areas: 
+   "planning anna3" 
+   "button";
     background-color: $green-2;
    
     .button{

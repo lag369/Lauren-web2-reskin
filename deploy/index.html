@@ -13,69 +13,84 @@
   <body>
     <header class="header">
       <div class="logo">
-        <img class="group3" src="img/Group3.svg" alt="logo">
-        <h1 class="cats">Cats</h1>
+        <div class="group3">
+          <img src="img/Group3.svg" alt="logo">
+        </div>
+        <div class="cats">
+          <p>Cats</p>
+        </div>
+        
       </div>
     </header>
 
     <!--Search-->
     <div class="search">  
-      <h2>
-      Search our inventory 
-      </h2>
-      <img src="img/Group4.jpg" title="search icon"/>
+      <p>Search our inventory </p>
+      <div class="search-icon">
+        <img src="img/Group4.jpg" title="search icon">
+      </div>
     </div>
 
     <!--Hero 1-->
     <section class="hero1"> 
-      <img src="img/hero1anna.jpg" alt="Anna smiling at the camera"/>
+      <img src="img/hero1anna.jpg" alt="Anna smiling at the camera">
     </section>
       
     <!--Description/Location/Price-->
     <section class="description">
       <div class="description1">
-        <p class="anna">Anna</p>
-        <p class="tabby"> 18 year old tabby cat </p>
-        <p class="details1">Details</p>
+        <div class="text">
+          <p class="anna">Anna</p>
+          <p class="tabby"> 18 year old tabby cat </p>
+        </div>
+      <button>
+        <img src="img/detailsarrow.png" alt="details arrow!">
+      </button>  
+       
       </div>
      
       <div class="description2">
-        <p class="location"><b>Location:</b> Philadelphia, PA</p>
-        <p class="price"><b>Price:</b> 24hr petting</p>
-        <p class="details2">Details</p>  
+        <div class="text">
+          <p class="location"><b>Location:</b> Philadelphia, PA</p>
+          <p class="price"><b>Price:</b> 24hr petting</p>
+        </div>
+        <button>
+          <img src="img/detailsarrow.png" alt="details arrow!">
+        </button>  
       </div>
+
     </section>
     
     <!--Planning/Supplies-->
     <section>
       <div class="planning">
-        <p class="planning-p">Planning your next adoption?</p>
+        <div class="planning-p">
+          <p>Planning your next adoption?</p>
+          <button class="button"><b>Start here</b></button>
+        </div>  
         <img class="anna2" src="img/planning.svg" alt="anna sittin">
-        <button class="button">Start here</button>
-        
       </div>
 
       <div class="supplies">
-        <p class="need-p">Need supplies?</p>
+        <div class="need-p">
+          <p>Need supplies?</p>
+          <button class="button">Start here</button>
+        </div> 
         <img class="anna3" src="img/needsupplies.svg" alt="anna lookin">
-        <button class="button">Start here</button>
-        
       </div>
     </section>
 
     <!--Gallery-->
     <div class="gallery">
-      <section class="hero2">
-        <div class="anna2">
-          <img src="img/gallery1.jpg" title="Anna gettin pets!"/>
-        </div>
-      </section>
-
-      <section class="hero3"> 
-        <div class="anna3">
-         <img src="img/gallery2.jpg" title="Anna curled up!"/>
-        </div>
-     </section>
+      
+      <div class="hero2">
+        <img src="img/hero2.jpg" title="Anna gettin pets!"/>
+      </div>
+       
+      <div class="hero3">
+       <img src="img/hero3.jpg" title="Anna curled up!"/>
+      </div>
+     
     </div>
 
     <!--What's Mew-->
@@ -132,33 +147,55 @@
          Locations
        </h2>
 
-       <div>
+       <div class="locations-info">
+         
           <div class="connecticut">
-           <h3 class="h3">Connecticut</h3>
-           <img class="address-icon" src="img/location-arrow-light.svg" title="address icon"/>
-           <p class="p">20 Tolland Turnpike</p>
-           <p class="p">Manchester, CT 06042-1763</p>
-           <img class="phone-icon" src="img/mobile-android-light.svg" title="phone icon"/>
-           <p class="p">(800)829-4161</p>
+            <div class="connecticut-add">
+              <h3 class="h3">Connecticut</h3>
+              <img class="address-icon" src="img/location-arrow-light.svg" title="address icon"/>
+              <p class="p">20 Tolland Turnpike</p>
+              <p class="p">Manchester, CT 06042-1763</p>
+            </div>
+            <div class="connecticut-phone">
+              <img class="phone-icon" src="img/mobile-android-light.svg" title="phone icon"/>
+              <p class="p">(800)829-4161</p>
+            </div>
+          </div>
+
+          <div class="divide1">
+            <img src="img/divide.png" title="footer divide">
           </div>
 
           <div class="massachusetts">
-            <h3 class="h3">Massachusetts</h3>
-            <img class= "address-icon" src="img/location-arrow-light.svg" title="address icon"/>
-            <p class="p">136 Eastman Street South</p>
-            <p class="p">Easton, MA 02375</p>
-            <img class= "phone-icon" src="img/mobile-android-light.svg" title="phone icon"/>
-            <p class="p">(877)526-9213</p>
+            <div class="mass-add">
+              <h3 class="h3">Massachusetts</h3>
+              <img class= "address-icon" src="img/location-arrow-light.svg" title="address icon"/>
+              <p class="p">136 Eastman Street South</p>
+              <p class="p">Easton, MA 02375</p>
+            </div>
+            <div class="mass-phone">
+              <img class= "phone-icon" src="img/mobile-android-light.svg" title="phone icon"/>
+              <p class="p">(877)526-9213</p>
+            </div>
+          </div>
+
+          <div class="divide1">
+            <img src="img/divide.png" title="footer divide">
           </div>
 
          <div class="nova-scotia">
-            <h3 class="h3">Nova Scotia</h3>
-            <img class= "address-icon" src="img/location-arrow-light.svg" title="address icon"/>
-            <p class="p">318 Park Road</p>
-            <p class="p">Elmsdale, NS B2S 0G25</p>
-            <img class= "phone-icon" src="img/mobile-android-light.svg" title="phone icon"/>
-           <p class="p">(902)883-7450</p>
+            <div class="nov-add">
+              <h3 class="h3">Nova Scotia</h3>
+              <img class= "address-icon" src="img/location-arrow-light.svg" title="address icon"/>
+              <p class="p">318 Park Road</p>
+              <p class="p">Elmsdale, NS B2S 0G25</p>
+            </div>
+            <div class="nov-phone">
+              <img class= "phone-icon" src="img/mobile-android-light.svg" title="phone icon"/>
+              <p class="p">(902)883-7450</p>
+            </div>
           </div>
+
         </div>
 
        <!--Newsletter Sign Up-->

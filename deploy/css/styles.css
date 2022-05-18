@@ -409,21 +409,35 @@ textarea {
     Header
 ============= */
 .header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "group3 h1";
   background-color: #97A97C;
+}
+.header .logo {
+  display: grid;
+  grid-template-columns: 60px 58px;
+  grid-template-areas: "logo cats";
   gap: 6px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 .header .logo .group3 {
+  grid-area: "logo";
   width: 60px;
   height: 60px;
-  grid-area: "group3";
 }
-.header .logo .h1 {
-  font-size: 32px;
+.header .cats {
+  display: grid;
+  grid-template-columns: 60px 58px;
+  grid-template-areas: "logo cats";
+  padding-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   color: #E9F5DB;
-  grid-area: "h1";
+}
+.header .cats .p {
+  gap: 6px;
+  grid-area: "cats";
+  font-size: 32px;
 }
 
 /* =============
@@ -523,53 +537,70 @@ textarea {
 /* =================
     Description
 ================= */
-.description .description1 {
+.description {
   display: grid;
   grid-template-columns: 100%;
+  grid-template-areas: "description1" "description2";
+}
+.description .description1 {
+  grid-area: description1;
+  display: grid;
   background-color: #97A97C;
   font-family: "mohave", sans-serif;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "text img";
 }
-.description .description1 .anna {
+.description .description1 .text {
+  grid-area: "text";
+  padding-left: 16px;
+  margin-bottom: 21px;
+}
+.description .description1 .text .anna {
   font-weight: 700;
   font-size: 18pt;
 }
-.description .description1 .tabby {
+.description .description1 .text .tabby {
   font-weight: 400;
   font-size: 16pt;
 }
-.description .description1 .details1 {
-  font-weight: 400;
-  font-size: 18pt;
+.description .description1 .button .img {
+  grid-area: "img";
+  width: 10px;
 }
 .description .description2 {
+  grid-area: description2;
   display: grid;
-  grid-template-columns: 100%;
   background-color: #B5C99A;
   font-family: "mohave", sans-serif;
+  grid-template-areas: "text img";
 }
-.description .description2 .location {
+.description .description2 .text {
+  grid-area: "text";
+  padding-left: 16px;
+  padding-bottom: 43px;
+}
+.description .description2 .text .location {
   font-weight: "400";
   font-size: 16pt;
 }
-.description .description2 .price {
+.description .description2 .text .price {
   font-weight: 400;
   font-size: 16pt;
 }
-.description .description2 .details2 {
-  font-weight: 400;
-  font-size: 18pt;
+.description .description2 .button .img {
+  grid-area: "img";
+  width: 10px;
 }
 
-.gallery .hero2 .anna2 {
+.gallery {
   width: 100%;
-  display: block;
 }
-.gallery .hero2 .anna2 .img {
+.gallery .hero2 .img {
   width: 100%;
 }
 .gallery .hero3 .anna3 {
-  display: grid;
-  grid-template-columns: 100%;
+  display: block;
+  width: 100%;
 }
 .gallery .hero3 .anna3 .img {
   width: 100%;
@@ -581,23 +612,29 @@ textarea {
 
 .planning {
   display: grid;
-  grid-template-columns: 80% 20% 50%;
+  grid-template-columns: 2fr 1fr;
   background: #CFE1B9;
   grid-template-areas: "planning anna3" "button";
+  padding: 16px;
 }
-.planning .planning-p {
+.planning .planning-p .p {
   font-weight: 400;
   font-size: 22pt;
 }
-.planning .anna3 {
-  width: 77.48px;
-  height: 77.48px;
-}
-.planning .button {
+.planning .planning-p .button {
   background-color: #E9F5DB;
   border: none;
   font-size: 14px;
   font-weight: 700px;
+  width: 92px;
+  padding-left: 11px;
+  padding-top: 13px;
+  padding-right: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.planning .anna2 {
+  width: 100%;
 }
 
 /* ===========
@@ -605,43 +642,50 @@ textarea {
 =========== */
 .search {
   display: grid;
-  grid-template-columns: 80% 20%;
+  grid-template-columns: 3fr 1fr;
   grid-template-areas: "h2 searchicon";
+  color: #93A8AC;
+  padding-left: 16px;
 }
 .search .h2 {
-  color: #93A8AC;
   font-size: 16px;
   grid-area: "h2";
 }
-.search .searchicon {
-  width: 43px;
-  height: 34px;
+.search .search-icon {
+  background-color: #CFE1B9;
   grid-area: "searchicon";
 }
 
 .supplies {
   display: grid;
-  grid-template-columns: 80% 20% 50%;
+  grid-template-columns: 2fr 1fr;
   background: #CFE1B9;
   grid-template-areas: "planning anna3" "button";
   background-color: #CFE1B9;
-}
-.supplies .button {
-  background-color: #E9F5DB;
-  border: none;
-  font-size: 14px;
-  font-weight: 700px;
-  width: 92px;
+  margin-top: 15px;
+  padding: 16px;
 }
 .supplies .need-p {
   background-color: #CFE1B9;
   font-weight: 400;
   font-size: 22pt;
 }
+.supplies .anna .button {
+  background-color: #E9F5DB;
+  border: none;
+  font-size: 14px;
+  font-weight: 700px;
+  width: 92px;
+  padding-left: 11px;
+  padding-top: 13px;
+  padding-right: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
 
 .whats-new {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 100%;
   font-family: "mohave", sans-serif;
 }
 .whats-new .whats-mew {
@@ -758,7 +802,7 @@ textarea {
     grid-template-columns: 100%;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .whats-new .articles {
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "a1 a1 a2 a2 a3 a3";

@@ -21,6 +21,32 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/detailsarrow.png" : {
+      "ft" : 32768,
+      "iS" : 218,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/detailsarrow.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/divide.png" : {
+      "ft" : 32768,
+      "iS" : 138,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/divide.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/facebook-square-brands.jpg" : {
       "ft" : 16384,
       "iS" : 1280,
@@ -99,6 +125,32 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/hero1anna.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero2.jpg" : {
+      "ft" : 16384,
+      "iS" : 126000,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero3.jpg" : {
+      "ft" : 16384,
+      "iS" : 124706,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -220,6 +272,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/img\/search-line.png" : {
+      "ft" : 32768,
+      "iS" : 138,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/search-line.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/twitter-square-brands.jpg" : {
       "ft" : 16384,
@@ -350,6 +415,19 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dev\/img\/Group 4.jpg" : {
+      "ft" : 16384,
+      "iS" : 2319,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/img\/Group 4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/dev\/index.html" : {
       "cB" : 0,

@@ -3,49 +3,75 @@
 ================= */
 
 .description{
-
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+        "description1"
+        "description2";
 
     .description1{
+        grid-area: description1;
         display: grid;
-        grid-template-columns: 100%;
         background-color: $green-4;
         font-family: 'mohave', sans-serif;
-        
-        .anna{
-            font-weight: 700;
-            font-size: 18pt;
-        }
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas: "text img";
+            
+        .text{
+            grid-area: "text";
+            padding-left: 16px;
+            margin-bottom: 21px;
 
-        .tabby{
-            font-weight: 400;
-            font-size: 16pt;
-        }
+            .anna{
+                font-weight: 700;
+                font-size: 18pt;
         
-        .details1{
-            font-weight: 400;
-            font-size: 18pt;
+            }
+            
+            .tabby{
+                font-weight: 400;
+                font-size: 16pt;
+            }
+        }    
+           
+        .button{
+    
+            .img{
+                grid-area: "img";
+                width: 10px;
+                
+            } 
         }
     }
 
     .description2{
+        grid-area: description2;
         display: grid;
-        grid-template-columns: 100%;
         background-color: $green-3;
         font-family: 'mohave', sans-serif;
+        grid-template-areas: "text img";
 
-        .location{
-            font-weight: '400';
-            font-size: 16pt;
-        }
+        .text{
+            grid-area: "text";
+            padding-left: 16px;
+            padding-bottom: 43px;
+    
+            .location{
+                font-weight: '400';
+                font-size: 16pt;
+            }
 
-        .price{
-            font-weight: 400;
-            font-size: 16pt;
-        }
-
-        .details2{
-            font-weight: 400;
-            font-size: 18pt;
+            .price{
+                font-weight: 400;
+                font-size: 16pt;
+            }
+        } 
+        
+        .button{
+            .img{
+                grid-area: "img";
+                width: 10px;
+            } 
         }
     }
 }

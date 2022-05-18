@@ -3,27 +3,45 @@
 ============= */
 
 .header{
-
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-areas: 
-    "group3 h1" ;
     background-color: $green-4;
-    gap: 6px;
-
+        
     .logo{
+        display: grid;
+        grid-template-columns: 60px 58px ;
+        grid-template-areas: 
+        "logo cats";
+        gap: 6px;
+        padding-left: 16px;
+        padding-top: 8px;
+        padding-bottom: 8px;
         
         .group3{
+        
+            grid-area: "logo";
             width: 60px;
             height: 60px;
-            grid-area: "group3";
+            
         }
-        .h1{
+    }
+
+    .cats{
+        display: grid;
+        grid-template-columns: 60px 58px ;
+        grid-template-areas: 
+        "logo cats";
+        padding-left: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        color: $green-1;
+
+        .p{
+            gap: 6px;
+            grid-area: "cats";
             font-size: 32px;
-            color: $green-1;
-            grid-area: "h1";
+            
         }
-       
+            
+        
     }
 }
 

@@ -5,19 +5,47 @@
 
 .footer{
 
+    @include md{
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        grid-template-areas: 
+        "locations-stuff newsletter"
+        "locations-stuff follow"
+        ;
+    }
+
+    @include lg{
+        display: grid;
+        grid-template-columns: 16px 1fr 1fr 1fr 16px;
+        grid-template-areas: 
+        " . heading . . . . "
+        " . locations-stuff newsletter follow . ";
+    }
+
+    @include xl{
+        display: grid;
+        grid-template-columns: 10% 1fr 1fr 1fr 10%;
+        grid-template-areas: " . locations-stuff newsletter follow . ";
+    }
+
     background-color: $green-4;
     display: grid;
     grid-template-columns: 100% ;
 
+    .locations{
+        color: $green-1;
+        padding-left: 16px;
+        font-size: 20pt;
+        grid-area: "heading";
+    }
+
     .footer2{
 
-        .locations{
-            color: $green-1;
-            padding-left: 16px;
-            font-size: 20pt;
-        }
         
         .locations-info{
+
+            grid-area: "locations-stuff";
 
             .locations{
                 font-size: 20pt;
@@ -193,95 +221,99 @@
                 }
             }
         }
-        }
-            
+        .newsletter-sign-up{
 
-    .newsletter-sign-up{
-
-        .newsletter{
-            font-size: 20px;
-            font-weight: 700;
-            color: $green-1;
-            padding-left: 20px;
-        }
-        .email{
-            .email-input{
+            grid-area: "newsletter";
+    
+            .newsletter{
+                font-size: 20px;
+                font-weight: 700;
+                color: $green-1;
+                padding-left: 20px;
+            }
+            .email{
+                .email-input{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-areas: "email . . ";
+                    grid-area: "email";
+    
+                    font-size: 14pt;
+                    font-weight: 400;
+                    background-color: $green-1;
+                    margin-left: 17px;
+                    margin-right: 16px;
+    
+                    padding-left: 9px;
+                    padding-top: 19px;
+                    padding-bottom: 21px;
+                }
+    
+            }
+            .button{
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                grid-template-areas: "email . . ";
-                grid-area: "email";
-
-                font-size: 14pt;
-                font-weight: 400;
-                background-color: $green-1;
-                margin-left: 17px;
-                margin-right: 16px;
-
-                padding-left: 9px;
-                padding-top: 19px;
-                padding-bottom: 21px;
+                grid-template-columns: 1fr 1fr 30%;
+                grid-template-areas: " . . button";
+                grid-area: "button";
+                border: none;
+    
+                margin-left: 225px;
+                margin-right: 19px;
+                margin-top: 16px;
+    
+                padding-left: 10px;
+                padding-right: 28px;
+                padding-top: 7px;
+                padding-bottom: 9px;
+    
+                font-size: 14px;
+                font-weight: 700px;
+                background-color: $green-3;
             }
-
         }
-        .button{
-            display: grid;
-            grid-template-columns: 1fr 1fr 30%;
-            grid-template-areas: " . . button";
-            grid-area: "button";
-            border: none;
-
-            margin-left: 225px;
-            margin-right: 19px;
-            margin-top: 16px;
-
-            padding-left: 10px;
-            padding-right: 28px;
-            padding-top: 7px;
-            padding-bottom: 9px;
-
-            font-size: 14px;
-            font-weight: 700px;
-            background-color: $green-3;
+    
+        .follow-us{
+            grid-area: "follow";
+            
+            margin-left: 15px;
+    
+            .follow{
+               font-size: 20pt;
+               font-weight: 700;
+               color: $green-1; 
+            }
+    
+            .socials{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-template-areas: " youtube twitter instagram facebook . . . . ";
+                padding-bottom: 18px;
+                
+    
+                .youtube{
+                    grid-area: "youtube";
+                    width: 70%;
+                }
+        
+                .twitter{
+                    grid-area: "twitter";
+                    width: 70%;
+                }
+        
+                .instagram{
+                    grid-area: "instagram";
+                    width: 70%;
+                }
+        
+                .facebook{
+                    grid-area: "facebook";
+                    width: 70%;
+                }
+            }
+    
         }
     }
-
-    .follow-us{
-
-        margin-left: 15px;
-
-        .follow{
-           font-size: 20pt;
-           font-weight: 700;
-           color: $green-1; 
-        }
-
-        .socials{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-            grid-template-areas: " youtube twitter instagram facebook . . . . ";
-            padding-bottom: 18px;
             
 
-            .youtube{
-                grid-area: "youtube";
-                width: 70%;
-            }
-    
-            .twitter{
-                grid-area: "twitter";
-                width: 70%;
-            }
-    
-            .instagram{
-                grid-area: "instagram";
-                width: 70%;
-            }
-    
-            .facebook{
-                grid-area: "facebook";
-                width: 70%;
-            }
-        }
-
-    }
+  
 }

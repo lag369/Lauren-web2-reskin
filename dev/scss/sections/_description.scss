@@ -9,6 +9,13 @@
         "description1"
         "description2";
 
+        @include md{
+            display: grid;
+            grid-template-columns: 1fr 60%;
+            grid-template-areas: "description1 description2"
+
+        };
+
     .description1{
         grid-area: description1;
         display: grid;
@@ -16,6 +23,11 @@
         font-family: 'mohave', sans-serif;
         grid-template-columns: 3fr 1fr;
         grid-template-areas: "text img";
+
+        @include md{
+            display: grid;
+            grid-area: "description1"
+        };
             
         .text{
             grid-area: "text";
@@ -38,6 +50,7 @@
             margin-top: 20px;
             margin-bottom: 20px;
             background-color: $green-4;
+            border: none;
 
             .img{
                 grid-area: "img";
@@ -53,6 +66,11 @@
         background-color: $green-3;
         font-family: 'mohave', sans-serif;
         grid-template-areas: "text img";
+
+        @include md{
+            display: grid;
+            grid-area: "description1"
+        };
 
         .text{
             grid-area: "text";
@@ -77,6 +95,7 @@
             padding-left: 10px;
             padding-right: 10px;
             background-color: $green-3;
+            border: none;
 
             .img{
                 grid-area: "img";

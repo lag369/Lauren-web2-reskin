@@ -1,3 +1,17 @@
 /* =============
     Buttons
 ============= */
+
+.button{
+    background-color: $green-3;
+    border: none;
+    font-size: 14px;
+    font-weight: 700px;     
+    margin-left: 16px;
+    margin-bottom: 19px;
+                    
+    padding-left: 15px;
+    padding-right: 34px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+}

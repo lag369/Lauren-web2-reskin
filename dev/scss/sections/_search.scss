@@ -2,6 +2,8 @@
     Search
 =========== */
 
+/* mobile */
+
 .search{
     display: grid;
     grid-template-columns: 3fr 1fr ;
@@ -10,11 +12,22 @@
     color: $light-gray;
     padding-left: 16px;
 
+    @include md{
+        display: grid;
+        grid-template-columns: 85% 20% ;
+        grid-template-areas: "searchinput searchicon";
+
+    }
+    @include lg{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
     .search-input{
         grid-area: "searchinput";
 
         margin-left: 16px;
         margin-top: 28px;
+
     }
     
     .search-icon-button{
@@ -23,4 +36,6 @@
         margin-right: 17px;
         margin-bottom: 14px;
     }
+
+
 }

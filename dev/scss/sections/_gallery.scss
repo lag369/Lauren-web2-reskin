@@ -1,12 +1,17 @@
 
 
 .gallery{
-    display: block;
     
-    
+    @include md{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "hero2 hero3";
+        gap: 16px;
+    }
     .hero2{
+        grid-area: "hero2";
+
         .img{
-            display: block;
             width: 100%;
 
         }   
@@ -14,14 +19,11 @@
     }   
     
     .hero3{
-    
+        grid-area: "hero3";
+
         .anna3{
-            display: block;
             width: 100%;
         }
         
-        @include xl{
-            
-        }
     }
 }

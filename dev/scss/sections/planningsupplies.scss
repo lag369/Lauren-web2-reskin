@@ -1,0 +1,111 @@
+
+.planningsupplies{
+
+    @include md{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "planning supplies";
+
+    }
+    @include xl{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .planning{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        background: $green-2;
+        grid-template-areas: 
+        "planning anna3" 
+        "button";
+
+
+        @include md{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "planning supplies";
+            grid-area: "planning";
+            padding: 16px;
+            margin-left: 16px;
+            margin-right: 8px;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+
+        .planning-p{
+            .p{
+                font-weight: 400;
+                font-size: 22pt;
+            }
+            .button{
+                background-color: $green-1;
+                border: none;
+                font-size: 14px;
+                font-weight: 700px;
+                width: 92px;
+                padding-left: 11px;
+                padding-top: 13px;
+                padding-right: 28px;
+                padding-bottom: 15px;
+                margin-bottom: 15px;
+            }
+        }
+        .anna2{
+            width: 100%;
+            
+        }
+        
+    }
+
+    .supplies{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        background: $green-2;
+        grid-template-areas: 
+        "planning anna3" 
+        "button";
+        background-color: $green-2;
+
+        margin-top: 15px;
+        padding: 16px;
+        margin-bottom: 24px;
+
+        @include md{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "planning supplies";
+            grid-area: "planning";
+            padding: 16px;
+            margin-left: 8px;
+            margin-right: 16px;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+        
+    
+        .need-p{
+            background-color: $green-2;
+            font-weight: 400;
+            font-size: 22pt;
+        }
+
+        .button{
+            background-color: $green-1;
+            border: none;
+            font-size: 14px;
+            font-weight: 700px;
+            width: 92px;
+
+            padding-left: 11px;
+            padding-top: 13px;
+            padding-right: 28px;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        img{
+            width: 100%;
+        }
+        
+    }
+
+}

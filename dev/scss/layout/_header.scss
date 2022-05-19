@@ -4,6 +4,20 @@
 
 .header{
     background-color: $green-4;
+
+    @include md{
+        display: grid;
+        grid-template-columns: 1fr 1fr 80%;
+        grid-template-areas: "logo cats . ";
+          
+    }
+
+    @include lg{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "logo cats . . . . ";
+
+    }
         
     .logo{
         display: grid;
@@ -38,7 +52,7 @@
             gap: 6px;
             grid-area: "cats";
             font-size: 32px;
-            
+
         }
             
         

@@ -1,200 +1,88 @@
+section{
+    image{
+        width: 100%;
+    }
+    font-family: 'mohave', sans-serif;
 
-.whats-new{
+    #whats-mew {
+        font-weight: 400;
+        font-size: 20pt;
+        color: $gray;
+        margin-left: 16px;
+    }
 
-        display: grid;
-        grid-template-columns: 100%;
-        font-family: 'mohave', sans-serif;
-
-        .whats-mew{
-            font-weight: 400;
-            font-size: 20pt;
-            color: $gray;
-            margin-left: 16px;
-        }
-        .articles{
+    #all_articles {
+    
+        ul{
             display: grid;
-            grid-template-columns: 100%;
-            
-            .article-1{
-                background-color: $green-1;
-                margin-bottom: 16px;
+            gap: 16px;
+            grid-template-rows: repeat(5, auto);
 
-                .anna7{
-                    width: 100%;
-                    margin-left: 20px;
-                }
-                .h3{
-                    font-size: 27pt;
-                    font-weight: 700;
-                    padding-left: 16px;
-                }
-                .p{
-                    font-size: 16pt;
-                    font-weight: 400;
-                    padding-left: 16px;
-                }
-                button{
-                    background-color: $green-3;
-                    border: none;
-                    font-size: 14px;
-                    font-weight: 700px;
-                    margin-left: 16px;
-                    margin-bottom: 19px;
-                    
-                    padding-left: 15px;
-                    padding-right: 34px;
-                    padding-top: 6px;
-                    padding-bottom: 10px;
-                }
-            }
-
-            .article-2{
-                background-color: $green-1;
-                margin-bottom: 16px;
-
-                .anna8{
-                    width: 100%;
-                }
-                .h3{
-                    font-size: 27pt;
-                    font-weight: 700;
-                    padding-left: 16px;
-                }
-                .p{
-                    font-size: 16pt;
-                    font-weight: 400;
-                    padding-left: 16px;
-                }
-                button{
-                    background-color: $green-3;
-                    border: none;
-                    font-size: 14px;
-                    font-weight: 700px;
-                    margin-left: 16px;
-                    margin-bottom: 19px;
-                    
-                    padding-left: 15px;
-                    padding-right: 34px;
-                    padding-top: 6px;
-                    padding-bottom: 10px;
-                }
-            }
-
-            .article-3{
-                background-color: $green-1;
-                margin-bottom: 16px;
-                
-                .anna9{
-                    width: 100%;
-                }
-
-                .h3{
-                    font-size: 27pt;
-                    font-weight: 700;
-                    padding-left: 16px;
-                }
-                .p{
-                    font-size: 16pt;
-                    font-weight: 400;
-                    padding-left: 16px;
-                }
-                button{
-                    background-color: $green-3;
-                    border: none;
-                    font-size: 14px;
-                    font-weight: 700px;
-                    margin-left: 16px;
-                    margin-bottom: 19px;
-                    
-                    padding-left: 15px;
-                    padding-right: 34px;
-                    padding-top: 6px;
-                    padding-bottom: 10px;
-                }
-            }
-           
-            .article-4{
-                background-color: $green-1;
-                margin-bottom: 16px;
-
-                .anna10{
-                    width: 100%;
-                }
-
-                .h3{
-                    font-size: 27pt;
-                    font-weight: 700;
-                    padding-left: 16px;
-                }
-                .p{
-                    font-size: 16pt;
-                    font-weight: 400;
-                    padding-left: 16px;
-                }
-                button{
-                    background-color: $green-3;
-                    border: none;
-                    font-size: 14px;
-                    font-weight: 700px;
-                    margin-left: 16px;
-                    margin-bottom: 19px;
-                    
-                    padding-left: 15px;
-                    padding-right: 34px;
-                    padding-top: 6px;
-                    padding-bottom: 10px;
-                }
-            }
-
-            .article-5{
-                background-color: $green-1;
-                margin-bottom: 24px;
-
-                .anna11{
-                    width: 100%;
-                }
-
-                .h3{
-                    font-size: 27pt;
-                    font-weight: 700;
-                    padding-left: 16px;
-                }
-                .p{
-                    font-size: 16pt;
-                    font-weight: 400;
-                    padding-left: 16px;
-                }
-                button{
-                    background-color: $green-3;
-                    border: none;
-                    font-size: 14px;
-                    font-weight: 700px;
-                    margin-left: 16px;
-                    margin-bottom: 19px;
-                    
-                    padding-left: 15px;
-                    padding-right: 34px;
-                    padding-top: 6px;
-                    padding-bottom: 10px;
-                }
-            }
-
-            @include sm{
-                grid-template-columns: 100%;
-                
-            }
             @include md{
-            
-
-            }
-            @include lg{
-                grid-template-columns: repeat(6,1fr);
+                grid-area: card;
+                grid-template-columns: repeat(4, 1fr);
                 grid-template-areas: 
-                "a1 a1 a2 a2 a3 a3";
+                    "c1 c1 c2 c2"
+                    "c3 c3 c4 c4"
+                    ". c5 c5 .";
             }
-            @include xl{
 
+            @include lg{
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-areas: 
+                    "c1 c1 c2 c2 c3 c3" 
+                    ". c4 c4 c5 c5 .";
             }
+            #c1{
+                background-color: $green-1;
+                padding: 16px;
+
+                @include md {
+                grid-area: "c1";
+
+                }
+            }
+            #c2{
+                background-color: $green-1;
+                padding: 16px;
+
+                @include md {
+                grid-area: "c2";
+
+                }
+            }
+            #c3{
+                background-color: $green-1;
+                padding: 16px;
+
+                @include md {
+                grid-area: "c3";
+
+                }
+            }
+            #c4{
+                background-color: $green-1;
+                padding: 16px;
+
+                @include md {
+                grid-area: "c4";
+
+                }
+            }
+            #c5{
+                background-color: $green-1;
+                padding: 16px;
+
+                @include md {
+                grid-area: "c5";
+
+                }
+            }
+
         }
+        
+
+
+    }
 
 }

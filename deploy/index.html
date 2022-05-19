@@ -25,10 +25,17 @@
 
     <!--Search-->
     <div class="search">  
-      <p>Search our inventory </p>
-      <div class="search-icon">
-        <img src="img/Group4.jpg" title="search icon">
+
+      <form class="search-input">
+      <input type="text" title="Search our inventory" value="Search our inventory"><br>
+      </form> 
+     
+      <div class="search-icon-button">
+        <button>
+          <img src="img/Group4.jpg" title="search icon">
+        </button>
       </div>
+
     </div>
 
     <!--Hero 1-->
@@ -43,7 +50,7 @@
           <p class="anna">Anna</p>
           <p class="tabby"> 18 year old tabby cat </p>
         </div>
-      <button>
+      <button class="details">
         <img src="img/detailsarrow.png" alt="details arrow!">
       </button>  
        
@@ -54,7 +61,7 @@
           <p class="location"><b>Location:</b> Philadelphia, PA</p>
           <p class="price"><b>Price:</b> 24hr petting</p>
         </div>
-        <button>
+        <button class="details">
           <img src="img/detailsarrow.png" alt="details arrow!">
         </button>  
       </div>
@@ -74,7 +81,7 @@
       <div class="supplies">
         <div class="need-p">
           <p>Need supplies?</p>
-          <button class="button">Start here</button>
+          <button class="button"><b>Start here</b></button>
         </div> 
         <img class="anna3" src="img/needsupplies.svg" alt="anna lookin">
       </div>
@@ -143,21 +150,23 @@
     <!--Footer-->
     <footer class="footer">
      <div class="footer2">
-        <h2 class="locations">
-         Locations
-       </h2>
+        <p class="locations">
+         <b>Locations</b>
+        </p>
 
        <div class="locations-info">
          
           <div class="connecticut">
+            <h3 class="h3">Connecticut</h3>
             <div class="connecticut-add">
-              <h3 class="h3">Connecticut</h3>
-              <img class="address-icon" src="img/location-arrow-light.svg" title="address icon"/>
-              <p class="p">20 Tolland Turnpike</p>
-              <p class="p">Manchester, CT 06042-1763</p>
+              <img class="address" src="img/location-arrow-light.svg" title="address icon"/>
+              <div class="text">
+                <p>20 Tolland Turnpike</p>
+                <p>Manchester, CT 06042-1763</p>
+              </div>
             </div>
             <div class="connecticut-phone">
-              <img class="phone-icon" src="img/mobile-android-light.svg" title="phone icon"/>
+              <img class="phone" src="img/mobile-android-light.svg" title="phone icon"/>
               <p class="p">(800)829-4161</p>
             </div>
           </div>
@@ -167,14 +176,16 @@
           </div>
 
           <div class="massachusetts">
-            <div class="mass-add">
-              <h3 class="h3">Massachusetts</h3>
-              <img class= "address-icon" src="img/location-arrow-light.svg" title="address icon"/>
-              <p class="p">136 Eastman Street South</p>
-              <p class="p">Easton, MA 02375</p>
+            <h3 class="h3">Massachusetts</h3>
+            <div class="massachusetts-add">
+              <img class= "address" src="img/location-arrow-light.svg" title="address icon"/>
+              <div class="text">
+                <p>136 Eastman Street South</p>
+                <p>Easton, MA 02375</p>
+              </div>
             </div>
-            <div class="mass-phone">
-              <img class= "phone-icon" src="img/mobile-android-light.svg" title="phone icon"/>
+            <div class="massachusetts-phone">
+              <img class= "phone" src="img/mobile-android-light.svg" title="phone icon"/>
               <p class="p">(877)526-9213</p>
             </div>
           </div>
@@ -184,14 +195,16 @@
           </div>
 
          <div class="nova-scotia">
-            <div class="nov-add">
-              <h3 class="h3">Nova Scotia</h3>
-              <img class= "address-icon" src="img/location-arrow-light.svg" title="address icon"/>
-              <p class="p">318 Park Road</p>
-              <p class="p">Elmsdale, NS B2S 0G25</p>
+            <h3 class="h3">Nova Scotia</h3>
+            <div class="nova-scotia-add">
+              <img class= "address" src="img/location-arrow-light.svg" title="address icon"/>
+             <div class="text">
+              <p>318 Park Road</p>
+              <p>Elmsdale, NS B2S 0G25</p>
+             </div>
             </div>
-            <div class="nov-phone">
-              <img class= "phone-icon" src="img/mobile-android-light.svg" title="phone icon"/>
+            <div class="nova-scotia-phone">
+              <img class= "phone" src="img/mobile-android-light.svg" title="phone icon"/>
               <p class="p">(902)883-7450</p>
             </div>
           </div>
@@ -200,20 +213,26 @@
 
        <!--Newsletter Sign Up-->
        <div class="newsletter-sign-up">
-         <h2 class="p">Newsletter Sign Up</h2>
-         <h4 class="p">Email address</h4>
-         <button class="sign-up-button">Sign Up</button>
+         <p class="newsletter"><b>Newsletter Sign Up</b></p>
+         <div class="email">
+              <form class="email-input">
+                <input type="text" title="email address here!"><br>
+              </form> 
+         </div>
+         <button class="button">Sign Up</button>  
        </div>
 
         <!--Follow Us-->
-        <div>
+        <div class="follow-us">
           <h2 class="follow">
             Follow us
           </h2>
-          <img class='youtube' src="img/youtube-square-brands.svg" alt="youtube icon"/>
-          <img class='twitter' src="img/twitter-square-brands.svg" alt="twitter icon"/>
-          <img class='instagram' src="img/instagram-square-brands.svg" alt="instagram icon"/>
-          <img class='facebook' src="img/facebook-square-brands.svg" alt="facebook icon"/>
+          <div class="socials">
+            <img class='youtube' src="img/youtube-square-brands.svg" alt="youtube icon"/>
+            <img class='twitter' src="img/twitter-square-brands.svg" alt="twitter icon"/>
+            <img class='instagram' src="img/instagram-square-brands.svg" alt="instagram icon"/>
+            <img class='facebook' src="img/facebook-square-brands.svg" alt="facebook icon"/>
+          </div>
         </div>
       </div>
     </footer>

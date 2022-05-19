@@ -449,89 +449,207 @@ textarea {
   grid-template-columns: 100%;
 }
 .footer .footer2 .locations {
+  color: #E9F5DB;
+  padding-left: 16px;
+  font-size: 20pt;
+}
+.footer .footer2 .locations-info .locations {
   font-size: 20pt;
   font-weight: 700;
   color: #E9F5DB;
+  padding-left: 16px;
 }
-.footer .footer2 .connecticut .h3 {
+.footer .footer2 .locations-info .connecticut .h3 {
+  font-size: 16pt;
+  color: #E9F5DB;
+  padding-left: 16px;
+}
+.footer .footer2 .locations-info .connecticut .connecticut-add {
+  display: grid;
+  grid-template-columns: 21px 1fr 1fr;
+  grid-template-areas: "address text text";
+}
+.footer .footer2 .locations-info .connecticut .connecticut-add .address {
+  padding-left: 16px;
+  grid-area: "address";
+  width: 150%;
+  margin-top: 15px;
+}
+.footer .footer2 .locations-info .connecticut .connecticut-add .text {
+  font-size: 12pt;
+  font-weight: 400;
+  color: #E9F5DB;
+  padding-left: 55px;
+  grid-area: "text";
+}
+.footer .footer2 .locations-info .connecticut .connecticut-phone {
+  display: grid;
+  grid-template-columns: 21px 1fr 1fr;
+  grid-template-areas: "address text text";
+}
+.footer .footer2 .locations-info .connecticut .connecticut-phone .phone {
+  padding-left: 20px;
+  grid-area: "address";
+  width: 100%;
+}
+.footer .footer2 .locations-info .connecticut .connecticut-phone .p {
+  font-size: 12pt;
+  font-weight: 400;
+  color: #E9F5DB;
+  padding-left: 55px;
+  grid-area: "text";
+}
+.footer .footer2 .locations-info .divide1 {
+  padding-left: 12%;
+}
+.footer .footer2 .locations-info .massachusetts .h3 {
   font-size: 16pt;
   font-weight: 700;
   color: #E9F5DB;
+  padding-left: 16px;
 }
-.footer .footer2 .connecticut .p {
+.footer .footer2 .locations-info .massachusetts .massachusetts-add {
+  display: grid;
+  grid-template-columns: 21px 1fr 1fr;
+  grid-template-areas: "address text text";
+}
+.footer .footer2 .locations-info .massachusetts .massachusetts-add .address {
+  padding-left: 16px;
+  grid-area: "address";
+  width: 150%;
+  margin-top: 15px;
+}
+.footer .footer2 .locations-info .massachusetts .massachusetts-add .text {
   font-size: 12pt;
   font-weight: 400;
   color: #E9F5DB;
+  padding-left: 55px;
+  grid-area: "text";
 }
-.footer .footer2 .connecticut .p {
+.footer .footer2 .locations-info .massachusetts .massachusetts-phone {
+  display: grid;
+  grid-template-columns: 21px 1fr 1fr;
+  grid-template-areas: "address text text";
+}
+.footer .footer2 .locations-info .massachusetts .massachusetts-phone .phone {
+  padding-left: 20px;
+  grid-area: "address";
+  width: 100%;
+}
+.footer .footer2 .locations-info .massachusetts .massachusetts-phone .p {
   font-size: 12pt;
   font-weight: 400;
   color: #E9F5DB;
+  padding-left: 55px;
+  grid-area: "text";
 }
-.footer .footer2 .connecticut .p {
-  font-size: 12pt;
-  font-weight: 400;
-  color: #E9F5DB;
-}
-.footer .footer2 .massachusetts .h3 {
+.footer .footer2 .locations-info .nova-scotia .h3 {
   font-size: 16pt;
   font-weight: 700;
   color: #E9F5DB;
+  padding-left: 16px;
 }
-.footer .footer2 .massachusetts .p {
+.footer .footer2 .locations-info .nova-scotia .nova-scotia-add {
+  display: grid;
+  grid-template-columns: 21px 1fr 1fr;
+  grid-template-areas: "address text text";
+}
+.footer .footer2 .locations-info .nova-scotia .nova-scotia-add .address {
+  padding-left: 16px;
+  grid-area: "address";
+  width: 150%;
+  margin-top: 15px;
+}
+.footer .footer2 .locations-info .nova-scotia .nova-scotia-add .text {
   font-size: 12pt;
   font-weight: 400;
   color: #E9F5DB;
+  padding-left: 55px;
+  grid-area: "text";
 }
-.footer .footer2 .massachusetts .p {
+.footer .footer2 .locations-info .nova-scotia .nova-scotia-phone {
+  display: grid;
+  grid-template-columns: 21px 1fr 1fr;
+  grid-template-areas: "address text text";
+}
+.footer .footer2 .locations-info .nova-scotia .nova-scotia-phone .phone {
+  padding-left: 20px;
+  grid-area: "address";
+  width: 100%;
+}
+.footer .footer2 .locations-info .nova-scotia .nova-scotia-phone .p {
   font-size: 12pt;
   font-weight: 400;
   color: #E9F5DB;
+  padding-left: 55px;
+  grid-area: "text";
 }
-.footer .footer2 .massachusetts .p {
-  font-size: 12pt;
-  font-weight: 400;
-  color: #E9F5DB;
-}
-.footer .footer2 .nova-scotia .h3 {
-  font-size: 16pt;
+.footer .newsletter-sign-up .newsletter {
+  font-size: 20px;
   font-weight: 700;
   color: #E9F5DB;
+  padding-left: 20px;
 }
-.footer .footer2 .nova-scotia .p {
-  font-size: 12pt;
-  font-weight: 400;
-  color: #E9F5DB;
-}
-.footer .footer2 .nova-scotia .p {
-  font-size: 12pt;
-  font-weight: 400;
-  color: #E9F5DB;
-}
-.footer .footer2 .nova-scotia .p {
-  font-size: 12pt;
-  font-weight: 400;
-  color: #E9F5DB;
-}
-.footer .newsletter-sign-up .p {
-  font-size: 20pt;
-  font-weight: 700;
-  color: #E9F5DB;
-}
-.footer .newsletter-sign-up .p {
+.footer .newsletter-sign-up .email .email-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "email . . ";
+  grid-area: "email";
   font-size: 14pt;
   font-weight: 400;
   background-color: #E9F5DB;
+  margin-left: 17px;
+  margin-right: 16px;
+  padding-left: 9px;
+  padding-top: 19px;
+  padding-bottom: 21px;
 }
-.footer .newsletter-sign-up .sign-up-button {
+.footer .newsletter-sign-up .button {
+  display: grid;
+  grid-template-columns: 1fr 1fr 30%;
+  grid-template-areas: " . . button";
+  grid-area: "button";
   border: none;
+  margin-left: 225px;
+  margin-right: 19px;
+  margin-top: 16px;
+  padding-left: 10px;
+  padding-right: 28px;
+  padding-top: 7px;
+  padding-bottom: 9px;
   font-size: 14px;
   font-weight: 700px;
+  background-color: #B5C99A;
+}
+.footer .follow-us {
+  margin-left: 15px;
 }
 .footer .follow-us .follow {
   font-size: 20pt;
   font-weight: 700;
   color: #E9F5DB;
+}
+.footer .follow-us .socials {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: " youtube twitter instagram facebook . . . . ";
+  padding-bottom: 18px;
+}
+.footer .follow-us .socials .youtube {
+  grid-area: "youtube";
+  width: 70%;
+}
+.footer .follow-us .socials .twitter {
+  grid-area: "twitter";
+  width: 70%;
+}
+.footer .follow-us .socials .instagram {
+  grid-area: "instagram";
+  width: 70%;
+}
+.footer .follow-us .socials .facebook {
+  grid-area: "facebook";
+  width: 70%;
 }
 
 /* =================
@@ -563,7 +681,12 @@ textarea {
   font-weight: 400;
   font-size: 16pt;
 }
-.description .description1 .button .img {
+.description .description1 .details {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #97A97C;
+}
+.description .description1 .details .img {
   grid-area: "img";
   width: 10px;
 }
@@ -577,7 +700,7 @@ textarea {
 .description .description2 .text {
   grid-area: "text";
   padding-left: 16px;
-  padding-bottom: 43px;
+  padding-bottom: 21px;
 }
 .description .description2 .text .location {
   font-weight: "400";
@@ -587,22 +710,27 @@ textarea {
   font-weight: 400;
   font-size: 16pt;
 }
-.description .description2 .button .img {
+.description .description2 .details {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #B5C99A;
+}
+.description .description2 .details .img {
   grid-area: "img";
   width: 10px;
 }
 
 .gallery {
-  width: 100%;
+  display: block;
 }
 .gallery .hero2 .img {
+  display: block;
   width: 100%;
 }
 .gallery .hero3 .anna3 {
   display: block;
-  width: 100%;
-}
-.gallery .hero3 .anna3 .img {
   width: 100%;
 }
 .hero1 img {
@@ -616,6 +744,7 @@ textarea {
   background: #CFE1B9;
   grid-template-areas: "planning anna3" "button";
   padding: 16px;
+  margin-top: 16px;
 }
 .planning .planning-p .p {
   font-weight: 400;
@@ -643,17 +772,20 @@ textarea {
 .search {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-template-areas: "h2 searchicon";
+  grid-template-areas: "searchinput searchicon";
   color: #93A8AC;
   padding-left: 16px;
 }
-.search .h2 {
-  font-size: 16px;
-  grid-area: "h2";
+.search .search-input {
+  grid-area: "searchinput";
+  margin-left: 16px;
+  margin-top: 28px;
 }
-.search .search-icon {
-  background-color: #CFE1B9;
+.search .search-icon-button {
   grid-area: "searchicon";
+  margin-top: 6px;
+  margin-right: 17px;
+  margin-bottom: 14px;
 }
 
 .supplies {
@@ -664,13 +796,14 @@ textarea {
   background-color: #CFE1B9;
   margin-top: 15px;
   padding: 16px;
+  margin-bottom: 24px;
 }
 .supplies .need-p {
   background-color: #CFE1B9;
   font-weight: 400;
   font-size: 22pt;
 }
-.supplies .anna .button {
+.supplies .button {
   background-color: #E9F5DB;
   border: none;
   font-size: 14px;
@@ -682,6 +815,9 @@ textarea {
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
+.supplies img {
+  width: 100%;
+}
 
 .whats-new {
   display: grid;
@@ -692,6 +828,7 @@ textarea {
   font-weight: 400;
   font-size: 20pt;
   color: #637275;
+  margin-left: 16px;
 }
 .whats-new .articles {
   display: grid;
@@ -699,26 +836,37 @@ textarea {
 }
 .whats-new .articles .article-1 {
   background-color: #E9F5DB;
+  margin-bottom: 16px;
 }
 .whats-new .articles .article-1 .anna7 {
   width: 100%;
+  margin-left: 20px;
 }
 .whats-new .articles .article-1 .h3 {
   font-size: 27pt;
   font-weight: 700;
+  padding-left: 16px;
 }
 .whats-new .articles .article-1 .p {
   font-size: 16pt;
   font-weight: 400;
+  padding-left: 16px;
 }
 .whats-new .articles .article-1 button {
   background-color: #B5C99A;
   border: none;
   font-size: 14px;
   font-weight: 700px;
+  margin-left: 16px;
+  margin-bottom: 19px;
+  padding-left: 15px;
+  padding-right: 34px;
+  padding-top: 6px;
+  padding-bottom: 10px;
 }
 .whats-new .articles .article-2 {
   background-color: #E9F5DB;
+  margin-bottom: 16px;
 }
 .whats-new .articles .article-2 .anna8 {
   width: 100%;
@@ -726,19 +874,28 @@ textarea {
 .whats-new .articles .article-2 .h3 {
   font-size: 27pt;
   font-weight: 700;
+  padding-left: 16px;
 }
 .whats-new .articles .article-2 .p {
   font-size: 16pt;
   font-weight: 400;
+  padding-left: 16px;
 }
 .whats-new .articles .article-2 button {
   background-color: #B5C99A;
   border: none;
   font-size: 14px;
   font-weight: 700px;
+  margin-left: 16px;
+  margin-bottom: 19px;
+  padding-left: 15px;
+  padding-right: 34px;
+  padding-top: 6px;
+  padding-bottom: 10px;
 }
 .whats-new .articles .article-3 {
   background-color: #E9F5DB;
+  margin-bottom: 16px;
 }
 .whats-new .articles .article-3 .anna9 {
   width: 100%;
@@ -746,19 +903,28 @@ textarea {
 .whats-new .articles .article-3 .h3 {
   font-size: 27pt;
   font-weight: 700;
+  padding-left: 16px;
 }
 .whats-new .articles .article-3 .p {
   font-size: 16pt;
   font-weight: 400;
+  padding-left: 16px;
 }
 .whats-new .articles .article-3 button {
   background-color: #B5C99A;
   border: none;
   font-size: 14px;
   font-weight: 700px;
+  margin-left: 16px;
+  margin-bottom: 19px;
+  padding-left: 15px;
+  padding-right: 34px;
+  padding-top: 6px;
+  padding-bottom: 10px;
 }
 .whats-new .articles .article-4 {
   background-color: #E9F5DB;
+  margin-bottom: 16px;
 }
 .whats-new .articles .article-4 .anna10 {
   width: 100%;
@@ -766,19 +932,28 @@ textarea {
 .whats-new .articles .article-4 .h3 {
   font-size: 27pt;
   font-weight: 700;
+  padding-left: 16px;
 }
 .whats-new .articles .article-4 .p {
   font-size: 16pt;
   font-weight: 400;
+  padding-left: 16px;
 }
 .whats-new .articles .article-4 button {
   background-color: #B5C99A;
   border: none;
   font-size: 14px;
   font-weight: 700px;
+  margin-left: 16px;
+  margin-bottom: 19px;
+  padding-left: 15px;
+  padding-right: 34px;
+  padding-top: 6px;
+  padding-bottom: 10px;
 }
 .whats-new .articles .article-5 {
   background-color: #E9F5DB;
+  margin-bottom: 24px;
 }
 .whats-new .articles .article-5 .anna11 {
   width: 100%;
@@ -786,16 +961,24 @@ textarea {
 .whats-new .articles .article-5 .h3 {
   font-size: 27pt;
   font-weight: 700;
+  padding-left: 16px;
 }
 .whats-new .articles .article-5 .p {
   font-size: 16pt;
   font-weight: 400;
+  padding-left: 16px;
 }
 .whats-new .articles .article-5 button {
   background-color: #B5C99A;
   border: none;
   font-size: 14px;
   font-weight: 700px;
+  margin-left: 16px;
+  margin-bottom: 19px;
+  padding-left: 15px;
+  padding-right: 34px;
+  padding-top: 6px;
+  padding-bottom: 10px;
 }
 @media (min-width: 576px) {
   .whats-new .articles {

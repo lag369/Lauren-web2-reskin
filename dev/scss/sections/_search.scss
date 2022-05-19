@@ -6,18 +6,21 @@
     display: grid;
     grid-template-columns: 3fr 1fr ;
     grid-template-areas: 
-    "h2 searchicon";
+    "searchinput searchicon";
     color: $light-gray;
     padding-left: 16px;
 
-    .h2{
-        
-        font-size: 16px;
-        grid-area: "h2";
+    .search-input{
+        grid-area: "searchinput";
+
+        margin-left: 16px;
+        margin-top: 28px;
     }
     
-    .search-icon{
-        background-color: $green-2;
+    .search-icon-button{
         grid-area: "searchicon";
+        margin-top: 6px;
+        margin-right: 17px;
+        margin-bottom: 14px;
     }
 }

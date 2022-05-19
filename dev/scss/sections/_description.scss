@@ -34,8 +34,11 @@
             }
         }    
            
-        .button{
-    
+        .details{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: $green-4;
+
             .img{
                 grid-area: "img";
                 width: 10px;
@@ -54,7 +57,7 @@
         .text{
             grid-area: "text";
             padding-left: 16px;
-            padding-bottom: 43px;
+            padding-bottom: 21px;
     
             .location{
                 font-weight: '400';
@@ -67,7 +70,14 @@
             }
         } 
         
-        .button{
+        .details{
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: $green-3;
+
             .img{
                 grid-area: "img";
                 width: 10px;

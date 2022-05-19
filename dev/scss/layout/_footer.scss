@@ -10,115 +10,278 @@
     grid-template-columns: 100% ;
 
     .footer2{
-        
+
         .locations{
-            font-size: 20pt;
-            font-weight: 700;
             color: $green-1;
+            padding-left: 16px;
+            font-size: 20pt;
         }
-        .connecticut{
+        
+        .locations-info{
 
-            .h3{
-               font-size: 16pt;
-               font-weight: 700;
-               color: $green-1; 
-            }
-           
-            .p{
-                font-size: 12pt;
-                font-weight: 400;
+            .locations{
+                font-size: 20pt;
+                font-weight: 700;
                 color: $green-1;
+                padding-left: 16px;
             }
-            .p{
-                font-size: 12pt;
-                font-weight: 400;
-                color: $green-1;
-            }
-           
-            .p{
-                font-size: 12pt;
-                font-weight: 400;
-                color: $green-1;
-            }
-        }
-        .massachusetts{
+            .connecticut{
 
-            .h3{
-               font-size: 16pt;
-               font-weight: 700;
-               color: $green-1; 
-            }
-           
-            .p{
-                font-size: 12pt;
-                font-weight: 400;
-                color: $green-1;
-            }
-            .p{
-                font-size: 12pt;
-                font-weight: 400;
-                color: $green-1;
-            }
-           
-            .p{
-                font-size: 12pt;
-                font-weight: 400;
-                color: $green-1;
-            }
-        }
-        .nova-scotia{
+                .h3{
+                    font-size: 16pt;
+                    color: $green-1;
+                    padding-left: 16px; 
+                }
 
-            .h3{
-               font-size: 16pt;
-               font-weight: 700;
-               color: $green-1; 
+                .connecticut-add{
+
+                    display: grid;
+                    grid-template-columns: 21px 1fr 1fr ;
+                    grid-template-areas: "address text text";
+
+                    .address{
+                        padding-left: 16px;
+                        grid-area: "address";
+                        width:150%;
+                        margin-top: 15px;
+                    }
+        
+                    .text{
+                        font-size: 12pt;
+                        font-weight: 400;
+                        color: $green-1;
+                        padding-left: 55px;
+                        grid-area: "text";
+                    }
+                }
+
+                .connecticut-phone{
+
+                    display: grid;
+                    grid-template-columns: 21px 1fr 1fr ;
+                    grid-template-areas: "address text text";
+    
+                    .phone{
+                        padding-left: 20px;
+                        grid-area: "address";
+                        width: 100%;
+                    }
+
+
+                     .p{
+                        font-size: 12pt;
+                        font-weight: 400;
+                        color: $green-1;
+                        padding-left: 55px;
+                        grid-area: "text";
+                    }
+                    
+                }
+                    
             }
+
+            .divide1{
+                padding-left: 12%;
+            }
+            .massachusetts{
+
+                .h3{
+                font-size: 16pt;
+                font-weight: 700;
+                color: $green-1;
+                padding-left: 16px; 
+                }
             
-            .p{
-                font-size: 12pt;
-                font-weight: 400;
-                color: $green-1;
+                .massachusetts-add{
+
+                    display: grid;
+                    grid-template-columns: 21px 1fr 1fr ;
+                    grid-template-areas: "address text text";
+
+                    .address{
+                        padding-left: 16px;
+                        grid-area: "address";
+                        width:150%;
+                        margin-top: 15px;
+                    }
+        
+                    .text{
+                        font-size: 12pt;
+                        font-weight: 400;
+                        color: $green-1;
+                        padding-left: 55px;
+                        grid-area: "text";
+                    }
+                }
+
+                .massachusetts-phone{
+
+                    display: grid;
+                    grid-template-columns: 21px 1fr 1fr ;
+                    grid-template-areas: "address text text";
+    
+                    .phone{
+                        padding-left: 20px;
+                        grid-area: "address";
+                        width: 100%;
+                    }
+
+
+                     .p{
+                        font-size: 12pt;
+                        font-weight: 400;
+                        color: $green-1;
+                        padding-left: 55px;
+                        grid-area: "text";
+                    }
+                    
+                }
             }
-            .p{
-                font-size: 12pt;
-                font-weight: 400;
+
+            .nova-scotia{
+
+                .h3{
+                font-size: 16pt;
+                font-weight: 700;
                 color: $green-1;
-            }
-            
-            .p{
-                font-size: 12pt;
-                font-weight: 400;
-                color: $green-1;
+                padding-left: 16px; 
+                }
+                
+                .nova-scotia-add{
+
+                    display: grid;
+                    grid-template-columns: 21px 1fr 1fr ;
+                    grid-template-areas: "address text text";
+
+                    .address{
+                        padding-left: 16px;
+                        grid-area: "address";
+                        width:150%;
+                        margin-top: 15px;
+                    }
+        
+                    .text{
+                        font-size: 12pt;
+                        font-weight: 400;
+                        color: $green-1;
+                        padding-left: 55px;
+                        grid-area: "text";
+                    }
+                }
+
+                .nova-scotia-phone{
+
+                    display: grid;
+                    grid-template-columns: 21px 1fr 1fr ;
+                    grid-template-areas: "address text text";
+    
+                    .phone{
+                        padding-left: 20px;
+                        grid-area: "address";
+                        width: 100%;
+                    }
+
+
+                     .p{
+                        font-size: 12pt;
+                        font-weight: 400;
+                        color: $green-1;
+                        padding-left: 55px;
+                        grid-area: "text";
+                    }
+                    
+                }
             }
         }
-    }
+        }
+            
 
     .newsletter-sign-up{
 
-        .p{
-            font-size: 20pt;
+        .newsletter{
+            font-size: 20px;
             font-weight: 700;
             color: $green-1;
+            padding-left: 20px;
         }
-        .p{
-            font-size: 14pt;
-            font-weight: 400;
-            background-color: $green-1;
+        .email{
+            .email-input{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-areas: "email . . ";
+                grid-area: "email";
+
+                font-size: 14pt;
+                font-weight: 400;
+                background-color: $green-1;
+                margin-left: 17px;
+                margin-right: 16px;
+
+                padding-left: 9px;
+                padding-top: 19px;
+                padding-bottom: 21px;
+            }
+
         }
-        .sign-up-button{
-           
+        .button{
+            display: grid;
+            grid-template-columns: 1fr 1fr 30%;
+            grid-template-areas: " . . button";
+            grid-area: "button";
             border: none;
+
+            margin-left: 225px;
+            margin-right: 19px;
+            margin-top: 16px;
+
+            padding-left: 10px;
+            padding-right: 28px;
+            padding-top: 7px;
+            padding-bottom: 9px;
+
             font-size: 14px;
             font-weight: 700px;
+            background-color: $green-3;
         }
     }
 
     .follow-us{
+
+        margin-left: 15px;
 
         .follow{
            font-size: 20pt;
            font-weight: 700;
            color: $green-1; 
         }
+
+        .socials{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-areas: " youtube twitter instagram facebook . . . . ";
+            padding-bottom: 18px;
+            
+
+            .youtube{
+                grid-area: "youtube";
+                width: 70%;
+            }
+    
+            .twitter{
+                grid-area: "twitter";
+                width: 70%;
+            }
+    
+            .instagram{
+                grid-area: "instagram";
+                width: 70%;
+            }
+    
+            .facebook{
+                grid-area: "facebook";
+                width: 70%;
+            }
+        }
+
     }
 }

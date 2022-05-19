@@ -9,55 +9,81 @@
             font-weight: 400;
             font-size: 20pt;
             color: $gray;
+            margin-left: 16px;
         }
         .articles{
             display: grid;
             grid-template-columns: 100%;
-
+            
             .article-1{
                 background-color: $green-1;
+                margin-bottom: 16px;
+
                 .anna7{
                     width: 100%;
+                    margin-left: 20px;
                 }
                 .h3{
                     font-size: 27pt;
                     font-weight: 700;
+                    padding-left: 16px;
                 }
                 .p{
                     font-size: 16pt;
                     font-weight: 400;
+                    padding-left: 16px;
                 }
                 button{
                     background-color: $green-3;
                     border: none;
                     font-size: 14px;
                     font-weight: 700px;
+                    margin-left: 16px;
+                    margin-bottom: 19px;
+                    
+                    padding-left: 15px;
+                    padding-right: 34px;
+                    padding-top: 6px;
+                    padding-bottom: 10px;
                 }
             }
 
             .article-2{
                 background-color: $green-1;
+                margin-bottom: 16px;
+
                 .anna8{
                     width: 100%;
                 }
                 .h3{
                     font-size: 27pt;
                     font-weight: 700;
+                    padding-left: 16px;
                 }
                 .p{
                     font-size: 16pt;
                     font-weight: 400;
+                    padding-left: 16px;
                 }
                 button{
                     background-color: $green-3;
                     border: none;
                     font-size: 14px;
                     font-weight: 700px;
+                    margin-left: 16px;
+                    margin-bottom: 19px;
+                    
+                    padding-left: 15px;
+                    padding-right: 34px;
+                    padding-top: 6px;
+                    padding-bottom: 10px;
                 }
             }
 
             .article-3{
                 background-color: $green-1;
+                margin-bottom: 16px;
+                
                 .anna9{
                     width: 100%;
                 }
@@ -65,21 +91,32 @@
                 .h3{
                     font-size: 27pt;
                     font-weight: 700;
+                    padding-left: 16px;
                 }
                 .p{
                     font-size: 16pt;
                     font-weight: 400;
+                    padding-left: 16px;
                 }
                 button{
                     background-color: $green-3;
                     border: none;
                     font-size: 14px;
                     font-weight: 700px;
+                    margin-left: 16px;
+                    margin-bottom: 19px;
+                    
+                    padding-left: 15px;
+                    padding-right: 34px;
+                    padding-top: 6px;
+                    padding-bottom: 10px;
                 }
             }
            
             .article-4{
                 background-color: $green-1;
+                margin-bottom: 16px;
+
                 .anna10{
                     width: 100%;
                 }
@@ -87,21 +124,32 @@
                 .h3{
                     font-size: 27pt;
                     font-weight: 700;
+                    padding-left: 16px;
                 }
                 .p{
                     font-size: 16pt;
                     font-weight: 400;
+                    padding-left: 16px;
                 }
                 button{
                     background-color: $green-3;
                     border: none;
                     font-size: 14px;
                     font-weight: 700px;
+                    margin-left: 16px;
+                    margin-bottom: 19px;
+                    
+                    padding-left: 15px;
+                    padding-right: 34px;
+                    padding-top: 6px;
+                    padding-bottom: 10px;
                 }
             }
 
             .article-5{
                 background-color: $green-1;
+                margin-bottom: 24px;
+
                 .anna11{
                     width: 100%;
                 }
@@ -109,16 +157,25 @@
                 .h3{
                     font-size: 27pt;
                     font-weight: 700;
+                    padding-left: 16px;
                 }
                 .p{
                     font-size: 16pt;
                     font-weight: 400;
+                    padding-left: 16px;
                 }
                 button{
                     background-color: $green-3;
                     border: none;
                     font-size: 14px;
                     font-weight: 700px;
+                    margin-left: 16px;
+                    margin-bottom: 19px;
+                    
+                    padding-left: 15px;
+                    padding-right: 34px;
+                    padding-top: 6px;
+                    padding-bottom: 10px;
                 }
             }
 
